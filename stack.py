@@ -9,9 +9,6 @@ class underflow(Exception):
     pass
 
 class stack:
-
-	_top = None
-	_stack = None
 	
 	def __init__(self):
 		self._top = 0

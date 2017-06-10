@@ -5,8 +5,6 @@ class underflow(Exception):
 
 class stackasList:
 
-	_stack = None
-
 	def __init__(self):
 		self._stack = []
 
